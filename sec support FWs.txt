@@ -1,0 +1,152 @@
+﻿
+to log into the shared firewalls‏
+
+
+ username: secsupport password: !*3bmshtr?!!‏
+
+
+ dedicated firewalls: Username: admin Password: *3bmshtr?‏
+
+
+some other dedicated firewalls use tns0ff1ce‏
+
+other passwords: !*3bmshtr?!!     7.p.m3n4c3&       tns0ff1ce   *3bmshtr?
+
+*******************************************************************************************************************************************
+for shared firewall logins:
+username: bahlezi.mkhatshwa
+Password: *3bmshtr(token code)
+
+username: secsupport password: !*3bmshtr?!!‏
+
+********************************************************************************************************************************************************
+Juniper SSl VPN logins:
+
+username: admin
+password: 7.p.m3n4c3&
+
+*********************************************************************************************************************************************************
+diagnose sniffer packet port15 "host 172.20.45.5 and port 8022"
+
+ get router info routing-table details 172.20.45.5
+get router info routing-table details 0.0.0.0
+
+show system interface port13
+
+*********************************************************************************************************************************************************
+Dedicated firewalls logins
+
+username: admin 
+password: *3bmshtr?
+
+*******************************
+7.p.m3n4c3& / 7.p.m3n4c3&       tns0ff1ce   *3bmshtr?
+
+******************************************************************************************
+getting the firewall config for a client.
+
+
+/usr/local/adm/issec/fortigate_config_to_html.pl Vfw02-RBA-Master_20140606.conf INMG > INMG.html
+
+******************************************************************************************************************
+syslog server commands
+
+ssh support@196.37.64.14 -i .ssh/support.key
+supportm3%
+
+
+
+gunzip -c fortinet.log.3.gz | grep -i 212.22.183.170
+
+zcat fortinet.log.5.gz | grep -i Softline | grep 196.36.113.186 | grep -E "time=22|time=23"
+
+zcat fortinet.log.5.gz | grep -i PremierFoods
+
+197.96.45.219‏
+
+masscash dedicated - j@bb@th3HuTt
+
+
+bahlezi.mkhatshwa@partner.is.co.za 
+
+IPsec fault finding commands
+
+diagnose debug reset
+diagnose vpn ike log-filter dst-addr4 41.242.164.118
+diagnose debug application ike -1
+diagnose debug enable
+
+
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+Astaro/ Sophos
+
+username: admin
+password: 2ndT13rUn!X@st@r0
+
+
+Percol8
+Username: admin
+Password: 2ndT13@Un!X4P5rc01!8
+
+
+https://196.2.148.14:4422 
+
+https://196.2.148.15:4422 
+
+username: admin
+password: 2ndT13rUn!X@st@r0
+
+Titan – Percol8 Admin Portal
+
+https://titan.percol8.co.za will get you access created.
+MIG admin portal
+
+Mig.mweb.co.za
+Username: secondtier
+Password: jungl3GyM!
+
+
+https://ns1.ignite.co.za 
+https://cpreseller.ignite.co.za  
+
+Username: bahlezim
+Password: *D^AP%WZ@MGR
+
+
+
+
+
+notacacs
+1$Nr33C$
+
+
+
+diagnose debug disable
+diag vpn ike log-filter list
+diagnose debug reset
+diagnose debug enable
+diagnose debug flow filter clear
+diagnose sys session filter daddr 10.20.40.11
+diagnose debug flow filter 
+diagnose debug flow show con enable
+diagnose debug flow show fun enable
+diagnose debug flow trace start 20
+diagnose debug enable
+
+
+
+
+diag debug flow trace stop
+diagnose debug flow filter clear
+diagnose debug reset
+diag debug flow filter addr 10.60.31.10
+diag debug flow show console enable
+diag debug flow trace start 100
+diag debug enable
+
+diag debug disable
+
+
+###############################################################################################################
+

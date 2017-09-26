@@ -1,0 +1,25 @@
+Last pass
+
+Kabelo321654keakoki
+
+Edcon - [Bev1k2Sh3]
+
+
+Delete a user account that has documents linked to it
+09:24:06.914 ERROR JDBCExceptionReporter [:Administrator:10.9.254.44] The DELETE statement conflicted with the REFERENCE constraint "fk_document_allocation_userId". The conflict occurred in database "Papertrail", table "dbo.document_allocation", column 'userId'. 
+09:24:06.914 ERROR AbstractFlushingEventListener [:Administrator:10.9.254.44] Could not synchronize database state with session com.microsoft.sqlserver.jdbc.SQLServerException: The DELETE statement conflicted with the REFERENCE constraint "fk_document_allocation_userId". The conflict occurred in database "Papertrail", table "dbo.document_allocation", column 'userId'.
+
+select * from document_allocation where userid = 15
+update document_allocation set userid = 1 where userid = 15 
+
+Deleting document allocation
+
+update document_allocation set userid = 1 where userid = 13
+update document_audit set createdBy = 1 where createdBy = 13
+update document_allocation set createdBy = 1 where createdBy = 13
+update document_note set createdBy = 1 where createdBy = 13
+update system_audit set createdBy = 1 where createdBy = 13
+update document set createdBy = 1 where createdBy = 13
+update document set lockOwnerId =1 where lockOwnerId = 13
+update document_version set createdBy = 1 where  createdBy = 13
+
